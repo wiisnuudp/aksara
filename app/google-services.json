@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "314658956271",
+    "project_id": "aksara-11acf",
+    "storage_bucket": "aksara-11acf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:314658956271:android:08b685ec8c8485441f8c1a",
+        "android_client_info": {
+          "package_name": "com.example.aksara"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "314658956271-910ms2hrohc4ilgnbrkp0ia3e4atbtbf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.aksara",
+            "certificate_hash": "767a11e4fe67dce9d0a885c1789b4ce3a5de0f77"
+          }
+        },
+        {
+          "client_id": "314658956271-ersi368afrl51tmkrrgi7g7snnk4ke1s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDr1sILAHm2g3Ixm42O-6bM-KxXaowmpFY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "314658956271-ersi368afrl51tmkrrgi7g7snnk4ke1s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
