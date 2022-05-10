@@ -21,7 +21,7 @@ public class DetailAksara extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail_aksara);
 
-        String getSelectedTopic = getIntent().getStringExtra("selectedTopic");
+        getSelectedTopic = getIntent().getStringExtra("selectedTopic");
         textTopic = findViewById(R.id.txtJudul);
 
         topic = textTopic.getText().toString();
@@ -36,5 +36,12 @@ public class DetailAksara extends AppCompatActivity {
         Intent intent = new Intent(DetailAksara.this, QuizActivity.class);
         intent.putExtra("selectedTopic", getSelectedTopic);
         startActivity(intent);
+    }
+
+    public void KamusClick(View view){
+        Intent intent = new Intent(DetailAksara.this, DetailKamus.class);
+        intent.putExtra("selectedTopic", getSelectedTopic);
+        startActivity(intent);
+
     }
 }

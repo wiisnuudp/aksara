@@ -9,15 +9,6 @@
     android:background="@drawable/bgapp"
     tools:context=".PuzzleActivity2">
 
-    <TextView
-        android:id="@+id/textScreen"
-        android:layout_marginTop="40dp"
-        android:layout_gravity="center"
-        android:textColor="#FFF"
-        android:textSize="22sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Kamu Adalah.." />
 
 
     <ImageView
@@ -39,7 +30,7 @@
         android:layout_width="230dp"
         android:textStyle="bold"
         android:layout_height="wrap_content"
-        android:text="KOMPOR GASS!!" />
+        android:text="Selamat!!!" />
 
     <Button
         android:layout_gravity="center"

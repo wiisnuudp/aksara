@@ -10,13 +10,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Aksara">
         <activity
+            android:name=".HurufB"
+            android:exported="false" />
+        <activity
+            android:name=".Game2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".KamusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DetailKamus"
+            android:exported="false" />
+        <activity
             android:name=".PujelActivity"
             android:exported="false" />
         <activity
             android:name=".PuzzleActivity2"
-            android:exported="false" />
-        <activity
-            android:name=".PuzzleActivity"
             android:exported="false" />
         <activity
             android:name=".DetailAksara"
@@ -31,7 +40,8 @@
         <activity
             android:name=".QuizActivity"
             android:exported="false"
-            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            android:parentActivityName=".DetailAksara"/>
         <activity
             android:name=".MainActivity"
             android:exported="true"

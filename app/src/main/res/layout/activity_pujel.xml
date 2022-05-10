@@ -17,7 +17,7 @@
         android:textSize="22sp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="In Fight Battle" />
+        android:text="Huruf Apakah Ini..." />
 
     <LinearLayout
         android:layout_marginTop="50dp"
@@ -58,7 +58,7 @@
 
     <TextView
         android:id="@+id/textTitle"
-        android:text="Ammo"
+        android:text="Kata"
         android:textSize="24sp"
         android:textColor="#FFF"
         android:layout_marginRight="28dp"

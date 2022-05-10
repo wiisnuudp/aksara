@@ -18,7 +18,10 @@ public class DetailGame extends AppCompatActivity {
 
     }
 
-    public void game(View view){
+    public void tebakaksara(View view){
         startActivity(new Intent(DetailGame.this, PujelActivity.class));
+    }
+    public void susunaksara(View view){
+        startActivity(new Intent(DetailGame.this, Game2Activity.class));
     }
 }

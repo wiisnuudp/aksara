@@ -74,8 +74,8 @@ public class MainActivity extends AppCompatActivity {
 
         final CardView jawa = findViewById(R.id.jawaLayout);
         final CardView sunda = findViewById(R.id.sundaLayout);
-        final CardView bali = findViewById(R.id.baliLayout);
-        final CardView batak = findViewById(R.id.batakLayout);
+//        final CardView bali = findViewById(R.id.baliLayout);
+//        final CardView batak = findViewById(R.id.batakLayout);
         final Button startBtn = findViewById(R.id.startQuizbtn);
 
 
@@ -87,8 +87,8 @@ public class MainActivity extends AppCompatActivity {
 
                 jawa.setBackgroundResource(R.drawable.round_back_white_stroke);
                 sunda.setBackgroundResource(R.drawable.round_back_and_white);
-                bali.setBackgroundResource(R.drawable.round_back_and_white);
-                batak.setBackgroundResource(R.drawable.round_back_and_white);
+//                bali.setBackgroundResource(R.drawable.round_back_and_white);
+//                batak.setBackgroundResource(R.drawable.round_back_and_white);
             }
         });
 
@@ -98,37 +98,37 @@ public class MainActivity extends AppCompatActivity {
                 selectedTopic = "Aksara Sunda";
 
                 sunda.setBackgroundResource(R.drawable.round_back_white_stroke);
-                bali.setBackgroundResource(R.drawable.round_back_and_white);
+//                bali.setBackgroundResource(R.drawable.round_back_and_white);
                 jawa.setBackgroundResource(R.drawable.round_back_and_white);
-                batak.setBackgroundResource(R.drawable.round_back_and_white);
+//                batak.setBackgroundResource(R.drawable.round_back_and_white);
             }
         });
 
-        bali.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                selectedTopic = "Aksara Bali";
+//        bali.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                selectedTopic = "Aksara Bali";
+//
+////                bali.setBackgroundResource(R.drawable.round_back_white_stroke);
+//                jawa.setBackgroundResource(R.drawable.round_back_and_white);
+//                sunda.setBackgroundResource(R.drawable.round_back_and_white);
+////                batak.setBackgroundResource(R.drawable.round_back_and_white);
+//
+//
+//            }
+//        });
 
-                bali.setBackgroundResource(R.drawable.round_back_white_stroke);
-                jawa.setBackgroundResource(R.drawable.round_back_and_white);
-                sunda.setBackgroundResource(R.drawable.round_back_and_white);
-                batak.setBackgroundResource(R.drawable.round_back_and_white);
-
-
-            }
-        });
-
-        batak.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                selectedTopic = "Aksara Batak";
-
-                batak.setBackgroundResource(R.drawable.round_back_white_stroke);
-                jawa.setBackgroundResource(R.drawable.round_back_and_white);
-                sunda.setBackgroundResource(R.drawable.round_back_and_white);
-                bali.setBackgroundResource(R.drawable.round_back_and_white);
-            }
-        });
+//        batak.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View view) {
+//                selectedTopic = "Aksara Batak";
+//
+//                batak.setBackgroundResource(R.drawable.round_back_white_stroke);
+//                jawa.setBackgroundResource(R.drawable.round_back_and_white);
+//                sunda.setBackgroundResource(R.drawable.round_back_and_white);
+//                bali.setBackgroundResource(R.drawable.round_back_and_white);
+//            }
+//        });
 
         startBtn.setOnClickListener(new View.OnClickListener() {
             @Override

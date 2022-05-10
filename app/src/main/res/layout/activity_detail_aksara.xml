@@ -29,7 +29,6 @@
                 android:id="@+id/txtJudul"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-
                 android:textSize="36dp"
                 android:textColor="@color/black"
                 android:backgroundTint="#9ADCFF"
@@ -58,6 +57,7 @@
             android:layout_width="150dp"
             android:layout_height="70dp"
             android:backgroundTint="#FFB2A6"
+            android:onClick="KamusClick"
             android:text="Kamus"/>
 
         <Button

@@ -1,3 +1,49 @@
 <resources>
     <string name="app_name">aksara</string>
+    <string name="col1">Jawa</string>
+    <string name="col2">Indonesia</string>
+    <string name="row1Jawaa">Abang</string>
+    <string name="row1Indoa">Merah</string>
+    <string name="row2Jawaa">Abot</string>
+    <string name="row2Indoa">Berat</string>
+    <string name="row3Jawaa">Acung</string>
+    <string name="row3Indoa">Acung</string>
+    <string name="row4Jawaa">Adang</string>
+    <string name="row4Indoa">Adang</string>
+    <string name="row5Jawaa">Adas</string>
+    <string name="row5Indoa">Adas</string>
+    <string name="row6Jawaa">Adeg</string>
+    <string name="row6Indoa">Adeg</string>
+    <string name="row7Jawaa">Ageg</string>
+    <string name="row7Indoa">Usia</string>
+    <string name="row8Jawaa">Agra</string>
+    <string name="row8Indoa">Agra</string>
+    <string name="row9Jawaa">Ajur</string>
+    <string name="row9Indoa">Penghancuran</string>
+    <string name="row10Jawaa">Andhar</string>
+    <string name="row10Indoa">Andhar</string>
+
+    <string name="row1Jawab">Badhe</string>
+    <string name="row1Indob">Sebaiknya</string>
+    <string name="row2Jawab">Babar</string>
+    <string name="row2Indob">Babar</string>
+    <string name="row3Jawab">Balang</string>
+    <string name="row3Indob">Balang</string>
+    <string name="row4Jawab">Baleman</string>
+    <string name="row4Indob">Baleman</string>
+    <string name="row5Jawab">Banar</string>
+    <string name="row5Indob">Banar</string>
+    <string name="row6Jawab">Banawi</string>
+    <string name="row6Indob">Banawi</string>
+    <string name="row7Jawab">Bancak</string>
+    <string name="row7Indob">Bancak</string>
+    <string name="row8Jawab">Banger</string>
+    <string name="row8Indob">Banger</string>
+    <string name="row9Jawab">Banon</string>
+    <string name="row9Indob">Banon</string>
+    <string name="row10Jawab">Banu</string>
+    <string name="row10Indob">Banu</string>
+
+
+
 </resources>
